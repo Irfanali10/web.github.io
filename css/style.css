@@ -1,0 +1,40 @@
+#logo{
+    height: 70px; 
+    width: 170px;
+}
+nav ul li{
+    font-size: 25px;
+    font-weight: 200; 
+}
+#sl_about{
+    height: 452.25px;
+    width: 1250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+@media only screen and (max-width : 992px) {
+
+    #logo{
+        height: 60px;
+        width: 160px;
+    }
+}
+@media only screen and (max-width : 768px) {
+
+    #logo{
+        height: 50px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width : 500px) {
+
+    #logo{
+        height: 40px;
+        width: 140px;
+    }
+}
